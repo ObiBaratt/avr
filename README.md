@@ -1,8 +1,11 @@
-# Installation
+# **A**ngular, **V**ue, **R**eact: **AVR**
+[![avr.png](https://i.postimg.cc/CxWkWTtG/avr.png)](https://postimg.cc/PCQCwcdJ)
 
-1. Run install at root, and for each app.
+## Installation
 
-# Running Instructions (From Root)
+1. Run install at root, and in each app root: `/react-app`, `/angular-app`, and `/vue-app`.
+
+## Running Instructions (From Root)
 
 Using yarn as an example, run `yarn start` in separate terminals for each app:
 
@@ -22,10 +25,11 @@ Last command:
 
 The combined project should be running on localhost:3000, go there and gaze into the abyss.
 
-# How does it work?
+## How does it work?
 
 By cheating. Each app is running on a separate server in a different location, then brought into the main `index.html` on localhost:3000 using iframes.
 
-# Why would you do this?
+## Why would you do this?
 
-Part of the Framework Field Guide is learning Angular, Vue, and React at the same time. I thought, why not do that literally? This is my starter template for all the exercises so that I can complete the challenges in all three frameworks and easily compare the three apps.
+A pillar of the [Unicorn Utterence](https://unicorn-utterances.com/) community, the legendary [Corbin Crutchley](https://github.com/crutchcorn) wrote the Framework Field Guide to teach Angular, Vue, and React at the same time
+in order to train Frontend developers rather than specific framework developers. I thought, why not _literally_ work on all three major fameworks at the same time? Thus AVR was born.
